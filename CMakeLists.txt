@@ -5,6 +5,14 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Software_engineering_principles_full_power main.cpp
         DataBase.cpp
+        Order.h
+        Order.cpp
+        Reservation.h
+        Reservation.cpp
+        Field.h
+        Field.cpp
+        Branch.h
+        Branch.cpp
         DataBase.h
         User.cpp
         User.h
